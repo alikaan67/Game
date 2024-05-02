@@ -8,7 +8,7 @@ namespace Game
         public void KampanyaEkle(int kampanyaId, double indirimOrani)
         {
             kampanyaIndirimleri.Add(kampanyaId, indirimOrani);
-            Console.WriteLine($"Yeni kampanya eklendi. Kampanya ID: {kampanyaId}, İndirim Oranı: %{indirimOrani}");
+            Console.WriteLine("Yeni kampanya eklendi. Kampanya ID:" (kampanyaId), "İndirim Oranı:" (indirimOrani));
         }
 
         public void KampanyaSil(int kampanyaId)
